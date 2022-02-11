@@ -19,7 +19,7 @@ def index(request):
     # that will be passed to the template engine.
     
     context_dict = {}
-    context_dict['boldmessage'] = 'Crunchy, creamy, cookie, candy, cupcake!'
+    context_dict['boldmessage'] = 'Crunchy, creamy, cookie, candy, cupcake!!'
     context_dict['categories'] = category_list
     context_dict['pages'] = page_list
     
